@@ -12,7 +12,10 @@ this.capacidad=capacidadInicial;
 }
 //		metodos
 1
-2
+2public void llena(){ this.cantidad=this.capacidad;
+}
+public void vacia(){
+this.cantidad=0; }
 3
 public	void	metodoComunitario(){	
 //	Comentario	incluido	para	pruebas	
